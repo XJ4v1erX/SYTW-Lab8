@@ -1,0 +1,58 @@
+.player {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.player--Chinese--up {
+    background-image: url('./../../assets/images/ChineseFront.png');
+}
+
+.player--Chinese--down {
+    background-image: url('./../../assets/images/ChineseBack.png');
+}
+
+.player--Chinese--right {
+    background-image: url('./../../assets/images/ChineseSide.png');
+}
+
+.player--Chinese--left {
+    background-image: url('./../../assets/images/ChineseSide.png');
+    transform: rotateY(180deg);
+}
+
+.player--Black--up {
+    background-image: url('./../../assets/images/BlackFront.png');
+}
+
+.player--Black--down {
+    background-image: url('./../../assets/images/BlackBack.png');
+}
+
+.player--Black--right {
+    background-image: url('./../../assets/images/BlackSide.png');
+}
+
+.player--Black--left {
+    background-image: url('./../../assets/images/BlackSide.png');
+    transform: rotateY(180deg);
+}
+
+.player--White--up {
+    background-image: url('./../../assets/images/WhiteFront.png');
+}
+
+.player--White--down {
+    background-image: url('./../../assets/images/WhiteBack.png');
+}
+
+.player--White--right {
+    background-image: url('./../../assets/images/WhiteSide.png');
+}
+
+.player--White--left {
+    background-image: url('./../../assets/images/WhiteSide.png');
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://i.postimg.cc/4NXZYdwp/Menu.png');
+  background-repeat: no-repeat;
+  background-size: cover ;
+  font-family: 'Alegreya Sans';
+  margin: 0;
+  padding: 0;
+}

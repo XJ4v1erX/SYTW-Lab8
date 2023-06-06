@@ -1,0 +1,78 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #828A95;
+}
+
+.labeltext {
+    margin-right: 15px;
+    width: 200px;
+}
+
+.input,
+.select {
+    padding: 5px;
+    width: 288px;
+    font-family: 'Alegreya Sans';
+    font-size: 24px;
+    color: #828A95;
+    border-radius: 10px;
+    border-color: #ccd7e4;
+    background-color: #f2f2f2;
+    outline: 2px solid #999;
+}
+
+.button {
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+    color: #828A95;
+    border-radius: 10px;
+    border-color: #ccd7e4;
+    background-color: #f2f2f2;
+    outline: 2px solid #999;
+
+}
+
+.button:hover {
+    background-color: #CEEAF7;
+
+}
+
+.pillsContainer {
+    display: flex;
+}
+
+.pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    color: #828A95;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: 2.5px solid #999;
+}
+
+.pill input[type="radio"] {
+    display: none;
+}
+
+.pill input[type="radio"]:checked {
+    background-color: aqua;
+}
+
+.pill:hover {
+    background-color: #CEEAF7;
+}
